@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessCoaching.API", "FitnessCoaching.API\FitnessCoaching.API.csproj", "{292E49B2-9013-48F8-812E-8299AC44E131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{292E49B2-9013-48F8-812E-8299AC44E131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292E49B2-9013-48F8-812E-8299AC44E131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292E49B2-9013-48F8-812E-8299AC44E131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292E49B2-9013-48F8-812E-8299AC44E131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE5819B2-1417-4539-8DA1-BA449DB799F3}
+	EndGlobalSection
+EndGlobal
