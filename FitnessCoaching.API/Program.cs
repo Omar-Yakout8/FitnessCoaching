@@ -31,6 +31,14 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Seed roles and admin user
+using (var scope = app.Services.CreateScope())
+{
+	var services = scope.ServiceProvider;
+	await RoleSeeder.SeedRolesAsync(services);
+	await AdminSeeder.SeedAdminAsync(services);
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
